@@ -10,7 +10,8 @@ import requests
 
 app = FastAPI()
 
-model_path = "C:/Users/DELL/Documents/AIProject/potateo-api/saved_models/1.keras"
+# model_path = "C:/Users/DELL/Documents/AIProject/potateo-api/saved_models/1.keras"
+model_path = "saved_models/1.keras"
 
 if os.path.exists(model_path):
     print(f"Model found at {model_path}")
